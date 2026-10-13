@@ -1,0 +1,16 @@
+model,recipe,strategy,dev_macro_f1,selected
+Model 1 — Wav2Vec2,v1,class_weighted,0.5559391642581754,False
+Model 1 — Wav2Vec2,v1,undersampling,0.5222131967602689,False
+Model 1 — Wav2Vec2,v1,oversampling,0.5631949034295728,True
+Model 1 — Wav2Vec2,v2,class_weighted,0.2560197502647492,False
+Model 1 — Wav2Vec2,v2,undersampling,0.20166319097597418,False
+Model 1 — Wav2Vec2,v2,oversampling,0.20911465699030604,False
+Model 1 — Wav2Vec2,v3,class_weighted,0.5601308103121588,False
+Model 1 — Wav2Vec2,v3,undersampling,0.5499396289944718,False
+Model 1 — Wav2Vec2,v3,oversampling,0.5464719322270322,False
+Model 2 — DTW+RF,—,class_weighted,0.1524685806858581,False
+Model 2 — DTW+RF,—,undersampling,0.16788918104255082,True
+Model 2 — DTW+RF,—,oversampling,0.16754637395092345,False
+Model 3 — Static MFCC+RF,—,class_weighted,0.11524234274246613,False
+Model 3 — Static MFCC+RF,—,undersampling,0.15536715538786713,True
+Model 3 — Static MFCC+RF,—,oversampling,0.13579052732818053,False

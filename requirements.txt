@@ -1,0 +1,23 @@
+# Versions used to produce the reported results (Python 3.10.9, Windows 10, RTX 3070).
+#
+# torch must be a CUDA build for Model 1 and must come from the CUDA index ONLY. Adding
+# --extra-index-url https://pypi.org/simple lets pip silently pick a CPU wheel instead:
+#   python -m pip install "torch==2.13.0" --index-url https://download.pytorch.org/whl/cu126
+# then install the rest:
+#   python -m pip install -r requirements.txt
+numpy==2.2.6
+pandas==2.3.2
+requests==2.34.2
+scipy==1.15.3
+tqdm==4.68.1
+librosa==0.11.0
+scikit-learn==1.7.2
+matplotlib==3.10.9
+seaborn==0.13.2
+fastdtw==0.3.4
+joblib==1.5.3
+torch==2.13.0
+transformers==5.16.1
+nbformat==5.10.4
+nbconvert==7.17.1
+ipykernel==6.30.1
